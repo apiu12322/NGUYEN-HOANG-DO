@@ -1,0 +1,23 @@
+article{
+	width: 402px;
+	height: 440px;
+	border: 1px solid red;
+	background-image: url(bg.png);
+}
+img{
+	width: 402px;
+	border-bottom: 1px solid red;
+}
+a{
+	text-decoration: none;
+	font-size: 23px;
+	color: red;
+	font-weight:bold;
+}
+a:hover{
+	color: black;
+	transition: 0.2s;
+}
+p{
+	text-align: justify;
+}

@@ -1,0 +1,19 @@
+div{
+	width: 342px;
+	height: 447px;
+	background-color: #efefef;
+}
+a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	text-align: justify;
+}
+a:hover{
+	color: red;
+	transition: 0.2s;
+}
+p{
+	text-align: justify;
+}

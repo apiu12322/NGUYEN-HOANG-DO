@@ -1,0 +1,31 @@
+.khungtren{
+	width: 507px;
+	height: 157px;
+	margin-bottom: 18px;
+}
+a{
+	text-decoration: none;
+	color: #555555;
+}
+a:hover{
+	color: #00adff
+}
+.hinhtren{
+	float: right;
+	width: 166px;
+}
+.khungtrong{
+	width: 245px;
+	height: 243px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #555555;
+	box-shadow:0px 10px 7px 0px grey;
+}
+.khungngoai{
+	width: 524px;
+}
+img{
+	width: 245px;
+}

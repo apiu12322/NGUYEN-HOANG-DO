@@ -1,0 +1,49 @@
+article{
+	width: 835px;
+	height: 366px;
+	border-top: 1px solid #a29e9e;
+	border-bottom: 1px solid #a29e9e;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+img{
+	width: 273px;
+	height: 366px;
+	float: left;
+	margin-right: 15px;
+}
+.tieudedau{
+	text-decoration: none;
+	font-size: 15px;
+	color: blue;
+}
+.tieudelon{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+.khungtrong a{
+	text-decoration: none;
+	font-size: 15px;
+	color: grey;
+	padding-right: 10px;
+}
+.khungtrong a.a2{
+	color: #4e4c4c;
+}
+a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+a:hover{
+	color: #00adff
+}
+p{
+	color: grey;
+	border-bottom: 1px dashed grey;
+	padding-bottom: 15px;
+}
+.khungphai div{
+	padding-top: 15px;
+}

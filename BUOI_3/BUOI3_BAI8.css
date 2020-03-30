@@ -1,0 +1,31 @@
+article{
+	width: 420px;
+	height: 111px;
+	border-top: 1px solid grey;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+div{
+	width: 163px;
+	height: 111px;
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+img{
+	width: 163px;
+	height: 111px;
+
+}
+img:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+a:hover{
+	color: #00adff
+}

@@ -1,0 +1,44 @@
+article{
+	width: 807px;
+	height: 193px;
+	border-bottom: 1px solid #bbb6b6;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+img{
+	width: 292px;
+	height: 191px;
+}
+img:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+.khunghinh{
+	width: 292px;
+	height: 191px;
+	float: left;
+	overflow: hidden;
+	margin-right: 15px;
+}
+a.tieude{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+a:hover{
+	color: blue;
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+.con1{
+	text-decoration: bold;
+	color: black;
+	font-size: 18px;
+}
+p{
+	color: grey;
+	font-size: 18px;
+	border-bottom: 1px scale grey;
+}

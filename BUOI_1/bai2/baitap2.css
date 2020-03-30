@@ -1,0 +1,38 @@
+div{
+	width: 342px;
+	height: 447px;
+}
+.link1{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+.link1:hover{
+	color: red;
+	transition: 0.2s;
+}
+.link2{	
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.link2:hover{
+	color: red;
+	transition: 0.2s;
+}
+.link3{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.link3:hover{
+	color: red;
+	transition: 0.2s;
+}
+
+p{
+	text-align: justify;
+}
