@@ -1,0 +1,37 @@
+.player1{
+	position: relative;
+	width: 846px;
+	height: 619px;
+}
+.player2{
+	position: relative;
+	width: 846px;
+	height: 619px;
+	top: 0px;
+	left: 0px;
+	z-index: 1
+}
+h1{
+	position: absolute;
+	top: 183px;
+    left: 346px;
+	z-index: 2;
+	font-size: 45px;
+}
+h2{
+	position: absolute;
+	top: 242px;
+    left: 341px;
+	z-index: 3;
+	font-size: 30px;
+	color: #ff015387;
+}
+h3{
+	position: absolute;
+	top: 297px;
+    left: 353px;
+	z-index: 4;
+	font-size: 25px;
+	background-color: #e85d8d;
+	padding: 10px;
+}

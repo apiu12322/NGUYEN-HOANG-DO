@@ -1,0 +1,73 @@
+article{
+	width: 828px;
+	height: 409px;
+	background-color: #ffb2d09e;
+}
+article div{
+	float: left;
+}
+.khungtrai{
+	position: relative;
+	width: 311px;
+	height: 409px;
+	margin-right: 22px;
+}
+.player1{
+	position: absolute;
+	width: 311px;
+	height: 409px;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+.player2{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 2;
+}
+.khungtrai a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #00e7ff;
+	background-color: #010b0c75;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.khungphai{
+	width: 495px;
+	height: 409px;
+}
+.khungnoidung{
+	width: 495px;
+	height: 118px;
+	border-top: 1px solid #cac3c38f;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.khungnoidung div{
+	float: left;
+}
+.khunganh{
+	width: 197px;
+	height: 117px;
+	margin-right: 19px;
+}
+.khungnoidung img{
+	width: 197px;
+	height: 117px;
+}
+.khungchu{
+	width: 279px;
+	height: 118px;
+}
+.khungchu a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffa825;
+}
+a:hover{
+	color: red;
+}
