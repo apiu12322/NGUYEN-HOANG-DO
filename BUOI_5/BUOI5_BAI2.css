@@ -1,0 +1,128 @@
+.trang{
+	width: 1096px;
+	padding: center;
+}
+.khungngoai{
+	width: 264px;
+	height: 412px;
+	float: left;
+	padding-right: 10px;
+}
+.anh{
+	width: 264px;
+	height: 336px;
+	position: relative;
+}
+.player1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.player2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+	transition: 0.5s;
+}
+.icon{
+	width: 40px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+	background-color: #d2d2d2;
+	opacity: 0;
+}
+.icon i{
+	font-size: 25px;
+	padding: 7px;
+}
+.icon i:hover{
+	color: white;
+	background-color: orange;
+}
+.khungngoai:hover .icon{
+	opacity: 1;
+	transition: 0.5s;
+}
+.khungngoai:hover .player2{
+	opacity: 1;
+	transition: 0.5s;
+}
+.tieude{
+	font-size: 15px;
+	border-bottom: 1px solid grey;
+	margin-top: 10px;
+	display: inline-block;
+}
+.khungduoi{
+	margin-top: 10px;
+}
+.khungduoi .trai{
+	position: relative;
+	width: 180px;
+	height: 40px;
+	float: left;
+}
+.khungduoi .phai{
+	position: relative;
+	width: 70px;
+	height: 40px;
+	float: right;
+}
+.trai .lop1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.trai .lop2{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+}
+.khungngoai:hover .lop1{
+	top: -15px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.khungngoai:hover .lop2{
+	opacity: 1;
+	top: 0px;
+	transition: 0.5s;
+}
+.phai .maudo{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	top: 20px;
+	left: 0px;
+	z-index: 0;
+	opacity: 0;
+}
+.phai .mauxanh{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	top: -20px;
+	right: 0px;
+	z-index: 1;
+	opacity: 0;
+}
+.khungngoai:hover .maudo{
+	top:0px;
+	opacity: 1;
+	transition: 0.5s;
+}
+.khungngoai:hover .mauxanh{
+	top:0px;
+	opacity: 1;
+	transition: 0.5s;
+}

@@ -1,0 +1,63 @@
+.khungtrang{
+	width: 795px;
+}
+.khungngoai{
+	width: 255px;
+	height: 364px;
+	float: left;
+	float: left;
+	margin: 5px;
+}
+.khunganh{
+	width: 255px;
+	height: 317px;
+	position: relative;
+}
+.player1{
+	position: absolute;
+	width: 255px;
+	height: 317px;
+	top: 0px;
+	left: 0px;
+	z-index: 0px;
+}
+.khunganh .icon{
+	width: 135px;
+	height: 40px;
+	position: absolute;
+	top: 150px;
+	left: 70px;
+	z-index: 0px;
+	transform: scale(0);
+	transition: 0.5s;
+}
+.icon i{
+	font-size: 25px;
+	padding: 7px;
+	background-color: grey;
+}
+i:hover{
+	color: white;
+	background-color: orange;
+	transition: 0.3s;
+}
+.khungngoai:hover .icon{
+	opacity: 1;
+	transition: 0.5s;
+	transform: scale(1);
+}
+.khungduoi{
+	width: 255px;
+	height: 45px;
+}
+p{
+	margin: 5px;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+.gach{
+	text-decoration: line-through;
+}
