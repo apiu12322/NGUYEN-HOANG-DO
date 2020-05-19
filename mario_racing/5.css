@@ -1,0 +1,203 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bautroi{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: skyblue;
+	animation-name: troi;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+.may1{
+	position: absolute;
+	z-index: 3;
+	width: 200px;
+	height: 100px;
+	top: 30px;
+	left: 0px;
+	animation-name: may1;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+body{
+	overflow: hidden;
+}
+@keyframes may1{
+	from{
+		left: -150px;
+	}
+	to{
+		left: 120%;
+	}
+}
+.may2{
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	top: 100px;
+	right: 0px;
+	opacity: 0.5;
+	animation-name: may2;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+	z-index: 0;
+}
+@keyframes may2{
+	from{
+		right: -150px;
+	}
+	to{
+		right: 120%;
+	}
+}
+.co{
+	width: 100%;
+	height: 200px;
+	background-color: green;
+	z-index: 5;
+}
+.duong{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+	border-top: 10px solid #b7b5b56e;
+
+}
+hr{
+	width: 100%;
+	height: 0px;
+	position: absolute;
+	top:90px;
+	left: 0px;
+	color: red;
+	z-index: 1;
+	background-color: grey;
+	border-top: 20px dashed white;
+	border-bottom: 0px;
+}
+.luigi{
+	position: absolute;
+	height: 80px;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	animation-name: xexanh;
+	animation-duration: 5s;
+	animation-delay: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.mario{
+	position: absolute;
+	height: 80px;
+	top: 100px;
+	left: 0px;
+	z-index: 2;
+	animation-name: xedo;
+	animation-duration: 5s;
+	animation-delay: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}
+@keyframes xedo{
+	0%{
+		top: 100px;
+		left: 0px;
+
+	}
+	10%{
+		top: 0px;
+		left: 40%;
+		transform: rotate(-30deg);
+	}
+	40%{
+		top: 100px;
+		left: 100%;
+	}
+	50%{
+		top: 100px;
+		left: 170%;
+	}
+
+	99.9%{
+		transform: rotate(180deg);
+		transform: rotateY(180deg);
+
+	}
+	100%{
+		top: 100px;
+		left: 0px;
+	}
+
+}
+@keyframes xexanh{
+	0%{
+		top: 0px;
+		left: 0px;
+	}
+	10%{
+		top: 100px;
+		left: 50%;
+		transform: rotate(-40deg);
+	}
+	30%{
+		top: 0px;
+		left: 80%;
+	}
+	50%{
+		top: 0px;
+		left: 190%;
+	}
+	99.9%{
+		transform: rotate(180deg);
+		transform: rotateY(180deg);
+	}
+	100%{
+		top: 0px;
+		left: 0px;
+		
+		
+	}
+
+}
+.nui{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: -60px;
+	left: 100px;
+	transform: rotate(45deg);
+	background-color: green;
+	z-index: 1;
+	border-radius: 10px;
+}
+.nui2{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	bottom: -120px;
+	left: 180px;
+	transform: rotate(45deg);
+	background-color: green;
+	z-index: 2;
+	border-radius: 10px;
+}
+@keyframes troi{
+	0%{
+		background-color: skyblue;
+	}
+	50%{
+		background-color: #f7cb5d;
+	}
+	80%{
+		background-color: #722296;
+	}
+	100%{
+		background-color: skyblue;
+	}
+}
