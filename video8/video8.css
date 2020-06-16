@@ -1,0 +1,18 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	background-color: yellow;
+	transition: 0.5s;
+	padding:50px 20px;
+	position: fixed;
+	top: 0px;
+}
+#tieude{
+	font-size: 30px;
+}
+#noidung{
+	margin-top: 200px;
+}
