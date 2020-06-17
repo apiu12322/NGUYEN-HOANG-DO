@@ -1,0 +1,19 @@
+
+.divnoidung{
+	height: 0px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.carddangnhap{
+	position: relative;
+}
+.checktendangnhap{
+	position: absolute;
+	top: 80px;
+	right: 30px;
+}
+.checkmatkhau{
+	position: absolute;
+	top: 142px;
+	right: 30px;
+}
